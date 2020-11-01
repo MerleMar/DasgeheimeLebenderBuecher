@@ -6,7 +6,8 @@ import xmltodict
 identifier = "100625762"
 coordinates = []
 title = None
-rights = None
+rightsowner = None
+accessrights = None
 
 url = "http://digitale-sammlungen.gwlb.de/oai2/?verb=GetRecord&metadataPrefix=mets&identifier=" + identifier
 response = requests.get(url)
@@ -28,8 +29,11 @@ if 'mets:mptr' in file.keys():
     urlToFile = file['mets:mptr']['@xlink:href']
     response = requests.get(urlToFile)
     data = xmltodict.parse(response.content)
-    metadata = data['mets:mets']['mets:fileSec']['mets:fileGrp']
-    for key in metadata:
+    rightsowner = data['mets:mets']['mets:amdSec']['mets:rightsMD']['mets:mdWrap']['mets:xmlData']['dv:rights']['dv:owner']
+    accessrights = data['mets:mets']['mets:amdSec']['mets:digiprovMD']['mets:mdWrap']['mets:xmlData']['dv:links']['dv:license']
+    print(rightsowner + " : " + accessrights)
+    files = data['mets:mets']['mets:fileSec']['mets:fileGrp']
+    for key in files:
         if key['@USE'] == "DEFAULT":
             urlFile = key['mets:file']['mets:FLocat']['@xlink:href']
             r = requests.get(urlFile)
