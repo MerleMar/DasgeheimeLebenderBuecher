@@ -23,3 +23,8 @@ https://codingdavinci.de/de/daten/sammlung-altkarten
 
 Idee 9 vom Ideen-Pitch: https://pad.okfn.de/p/CdV-NDS-Ideenpitching  
 Jitsi-Raum: https://meet.ffmuc.net/CdVNDS2020-Raum9
+
+
+## Dependencies
+$ python3 -m pip install requests
+$ python3 -m pip install xmltodict
