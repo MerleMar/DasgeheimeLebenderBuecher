@@ -4,7 +4,7 @@
     function (e, t, a) {
       "use strict"; a.r(t); var n = a(22), i = a(3), s = a(4), o = a(6), l = a(5), r = a(0), c = a.n(r), u = a(15), m = a.n(u), p = a(16), d = (a(38), a(1)), g = a.n(d), h = a(18), v = a.n(h), f = a(19), b = a.n(f), E = a(20), k = a.n(E), y = a(21), N = a.n(y); a(47); g.a.registerLanguage("javascript", v.a), g.a.registerLanguage("plaintext", b.a), g.a.registerLanguage("xml", k.a), g.a.registerLanguage("scss", N.a); var S = c.a.forwardRef((
         function (e, t) { return c.a.createElement("div", { className: "page page-cover page-cover-" + e.pos, ref: t, "data-density": "hard" }, c.a.createElement("div", { className: "page-content" }, c.a.createElement("h2", null, e.children))) })), C = c.a.forwardRef((
-          function (e, t) { return c.a.createElement("div", { className: "page", ref: t, "data-density": "soft" | e.density }, c.a.createElement("div", { className: "page-content" }, c.a.createElement("h2", { className: "page-header" }, "Page header - ", e.number), c.a.createElement("div", { className: "page-image", style: { backgroundImage: "url(images/html/" + e.image + ")" } }), c.a.createElement("div", { className: "page-text" }, e.children), c.a.createElement("div", { className: "page-footer" }, e.number + 1))) })), x =
+          function (e, t) { return c.a.createElement("div", { className: "page", ref: t, "data-density": "soft" | e.density }, c.a.createElement("div", { className: "page-content" }, c.a.createElement("h2", { className: "page-header" }, "Seitentitel - ", e.number), c.a.createElement("div", { className: "page-image", style: { backgroundImage: "url(images/html/" + e.image + ")" } }), c.a.createElement("div", { className: "page-text" }, e.children), c.a.createElement("div", { className: "page-footer" }, e.number + 1))) })), x =
           function (e) {
             Object(o.a)(a, e); var t = Object(l.a)(a);
             function a(e) {
@@ -13,7 +13,13 @@
                 function () { n.flipBook.getPageFlip().flipPrev() }, n.onPage =
                 function (e) { n.setState({ page: e.data }) }, n.onChangeOrientation =
                 function (e) { n.setState({ orientation: e.data }) }, n.onChangeState =
-                function (e) { n.setState({ state: e.data }) }; for (var s = [c.a.createElement(S, { key: 0, pos: "top" }, "Rückseite")], o = 0, l = 0; l < 10; l++)++o > 8 && (o = 1), s.push(c.a.createElement(C, { key: l + 1, image: o + ".jpg", number: l + 1 }, "Moin, hier sind Merle und Lena")); return s.push(c.a.createElement(S, { key: 101, pos: "bottom" }, "Vorderseite")), n.state = { page: 0, totalPage: 0, orientation: "landscape", state: "read", pages: s }, n
+                //# number: wird als Seitenzahl angezeigt
+                function (e) { n.setState({ state: e.data }) };  
+                var s = [c.a.createElement(S, { key: 0, pos: "top" }, "Vorderseite")];
+                s.push(c.a.createElement(C, { key: 1, image: 1 + ".jpg", number: 1 }, "Moin"));
+                s.push(c.a.createElement(C, { key: 2, image: 2 + ".jpg", number: 2 }, "Moin 2"));
+                s.push(c.a.createElement(S, { key: 3, pos: "bottom" }, "Rückseite"));     
+                return s, n.state = { page: 0, totalPage: 0, orientation: "landscape", state: "read", pages: s }, n
             } return Object(s.a)(a, [{
               key: "componentDidMount", value:
                 function () { this.setState({ totalPage: this.flipBook.getPageFlip().getPageCount() }) }
