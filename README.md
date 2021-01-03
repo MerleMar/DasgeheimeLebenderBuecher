@@ -5,10 +5,11 @@ Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/book
 # Eigenes Buch erstellen  
 
   -npm installieren
+  -'npm install --save gh-pages'
   -'cd git/book'
   -'npm start'
   -kontrollieren im Browser, wenn zufriedenstellend:
-  -'npm run build' erstellt fertige Seiten, die unter github.io dargestellt werden können
+  -'npm run deploy' erstellt fertige Seiten, die unter github.io dargestellt werden können
 
 
 ## Licenses:
