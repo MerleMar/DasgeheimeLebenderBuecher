@@ -2,6 +2,14 @@
 
 Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/react-pageflip-gh-pages
 
+# Eigenes Buch erstellen  
+
+  -npm installieren
+  -'cd git/book'
+  -'npm start'
+  -kontrollieren im Browser, wenn zufriedenstellend:
+  -'npm run build' erstellt fertige Seiten, die unter github.io dargestellt werden können
+
 
 ## Licenses:
 # Nodlik/react-pageflip
