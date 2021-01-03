@@ -1,6 +1,6 @@
 # Das geheime Leben der Buecher
 
-Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/react-pageflip-gh-pages
+Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/book
 
 # Eigenes Buch erstellen  
 
