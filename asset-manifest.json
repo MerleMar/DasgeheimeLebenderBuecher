@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/DasgeheimeLebenderBuecher/book/static/css/main.4e97076d.chunk.css",
     "main.js": "/DasgeheimeLebenderBuecher/book/static/js/main.70976573.chunk.js",
     "main.js.map": "/DasgeheimeLebenderBuecher/book/static/js/main.70976573.chunk.js.map",
@@ -19,5 +20,27 @@
     "static/js/2.83f0fe25.chunk.js",
     "static/css/main.4e97076d.chunk.css",
     "static/js/main.70976573.chunk.js"
+=======
+    "main.css": "/DasgeheimeLebenderBuecher/static/css/main.cc690891.chunk.css",
+    "main.js": "/DasgeheimeLebenderBuecher/static/js/main.890bf792.chunk.js",
+    "main.js.map": "/DasgeheimeLebenderBuecher/static/js/main.890bf792.chunk.js.map",
+    "runtime-main.js": "/DasgeheimeLebenderBuecher/static/js/runtime-main.431c7ed2.js",
+    "runtime-main.js.map": "/DasgeheimeLebenderBuecher/static/js/runtime-main.431c7ed2.js.map",
+    "static/js/2.77ea7178.chunk.js": "/DasgeheimeLebenderBuecher/static/js/2.77ea7178.chunk.js",
+    "static/js/2.77ea7178.chunk.js.map": "/DasgeheimeLebenderBuecher/static/js/2.77ea7178.chunk.js.map",
+    "static/js/3.178d97f0.chunk.js": "/DasgeheimeLebenderBuecher/static/js/3.178d97f0.chunk.js",
+    "static/js/3.178d97f0.chunk.js.map": "/DasgeheimeLebenderBuecher/static/js/3.178d97f0.chunk.js.map",
+    "index.html": "/DasgeheimeLebenderBuecher/index.html",
+    "static/css/main.cc690891.chunk.css.map": "/DasgeheimeLebenderBuecher/static/css/main.cc690891.chunk.css.map",
+    "static/js/2.77ea7178.chunk.js.LICENSE.txt": "/DasgeheimeLebenderBuecher/static/js/2.77ea7178.chunk.js.LICENSE.txt",
+    "static/media/1.41c0376c.jpg": "/DasgeheimeLebenderBuecher/static/media/1.41c0376c.jpg",
+    "static/media/index.css": "/DasgeheimeLebenderBuecher/static/media/background.e7231e5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.431c7ed2.js",
+    "static/js/2.77ea7178.chunk.js",
+    "static/css/main.cc690891.chunk.css",
+    "static/js/main.890bf792.chunk.js"
+>>>>>>> 39ad384f10a7bd4e0f0043bb3724bb2fb927763a
   ]
 }
