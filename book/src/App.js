@@ -121,37 +121,6 @@ function changeStyleResponse(jhClass){
   }
 }
 
-// function onFlip(data) {
-//   var arr = document.getElementsByClassName("resolution");
-//   var i;
-//   for (i = 0; i < arr.length; i++) {
-//     arr[i].innerHTML = "";
-//     console.log('Current page: ' + data);
-//   }
-// }
-
-// function App(props) {
-//   return (
-//     <HTMLFlipBook width={400} height={500} showCover={true} onFlip={(e) => this.onFlip(e.data)}>
-//       <Header number="0"/>
-//       <Page1 number="1"/>
-//       <PageRes number="2"/>
-//       <Page2 number="3"/>
-//       <PageRes number="4"/>
-//       <Page3 number="5"/>
-//       <PageRes number="6"/>
-//       <Page4 number="7"/>
-//       <PageRes number="8"/>
-//       <Page5 number="9"/>
-//       <PageRes number="10"/>
-//       <Page6 number="11"/>
-//       <PageRes number="12"/>
-//     </HTMLFlipBook>
-//   );
-// }
-//
-// export default App;
-
 class Book extends React.Component {
   constructor(props) {
     super(props);

@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #014003;
+  background-image: url("html/background.jpg");
+  background-size: cover;
 }
 
 code {
@@ -67,5 +69,17 @@ div {
   margin-left: auto;
   margin-right: auto;
   line-height: 130%;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  background-color: #e8dfae;
+  border: 2px solid #57330A;
+  color: black;
+  padding: 2px 2px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 5px;
 }
