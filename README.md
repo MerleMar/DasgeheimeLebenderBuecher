@@ -1,6 +1,6 @@
 # Das geheime Leben der Buecher
 
-Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/book
+Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher
 
 # Projekt im Rahmen vom Coding Da Vinci Niedersachsen 2020
 
