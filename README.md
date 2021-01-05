@@ -1,15 +1,17 @@
 # Das geheime Leben der Buecher
 
-Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/react-pageflip-gh-pages
+Finde es heraus unter: http://merlemar.github.io/DasgeheimeLebenderBuecher/book
 
-# Eigenes Buch erstellen  
+# Projekt im Rahmen vom Coding Da Vinci Niedersachsen 2020
 
-  -npm installieren
-  -'cd git/book'
-  -'npm start'
-  -kontrollieren im Browser, wenn zufriedenstellend:
-  -'npm run build' erstellt fertige Seiten, die unter github.io dargestellt werden können
+Diese Beispielseite entstand im Rahmen von Coding Da Vinci Niedersachsen 2020.
 
+# Quellen:
+
+Folgende Datensets wurden zur Erstellung genutzt:
+
+https://codingdavinci.de/de/daten/material-evidence-incunabula
+https://codingdavinci.de/de/daten/sammlung-altkarten
 
 ## Licenses:
 # Nodlik/react-pageflip
